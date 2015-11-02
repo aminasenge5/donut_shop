@@ -1,0 +1,39 @@
+<!Doctype html>
+<html>
+    <head>
+         SUPER FUN   
+         <title>This is in class fun!!!</title>
+
+         
+
+    <style>
+        body{
+            color:#330000;
+            background-color:#336699 ;
+            
+        }
+
+        h1 {
+            color: black;
+            background-color: grey;
+            font-family: 'Contrail One', cursive;
+        }
+
+<link href='https://fonts.googleapis.com/css?family=Yesteryear' rel='stylesheet' type='text/css'>
+
+    </style>
+    </head>
+
+
+
+    <body>
+        <h1>Coders have coolness!!</h1>
+            <p>We like to think, imagine and play. We make dreams come true. All of them.</p>
+
+
+    </body>
+    
+    
+    
+
+</html>
