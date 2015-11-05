@@ -4,37 +4,12 @@
 
 <head>
 
-
-<style>
-		body{
-
-		color: #FF6666;
-		background-color: black;}
-
-		title {
-
-			font-family: Pompiere;
-			background-color: #D0D0D0
-
-		}
-
-		h1{
-
-			color:#FF6633 ;
-		}
-
-		h3{
-			color: #CC3399
-
-		}
-
-
-</style>
+<link rel="stylesheet" href="donut.css">
 
 
 <title>Holy Moly Donut Shop</title>
 	
-
+<center><img src="/home/aminamaye/Desktop/codefellows_directory/donut.jpg"></center>
 
 </head>
 
@@ -44,7 +19,39 @@
 
 <h1><b>Holy Moly Donut Shop Locations and Statistics</b></h1>
 
-	<table border="1">
+<fieldset id = "EventTime"> 
+
+<center><LEGEND><b>ADD LOCATION</b></LEGEND></center>
+
+<br />
+
+<label>Location:</label>
+<input id="Location"type="text" name="location" placeholder="Enter location."></input>
+
+<br />
+
+<label>Minumum Number of Customers each hour:</label>
+<input id="min"type="text" name="Min." placeholder="Enter minimum."></input>
+
+<br />
+
+<label>Maximum Number of Customers each hour:</label>
+<input id="max"type="text" name="Max." placeholder="Enter maximum."></input>
+
+<br />
+
+<label>Average Number of Holy Moly Donuts:</label>
+<input id="avg"type="text" name="average" placeholder="Enter Donut amount."></input>
+
+<br />
+
+<input type="button" value="Add Location" onclick="AddLocation()">
+
+</fieldset>
+
+<br />
+
+	<center><table border="1">
 		<tr>
 			
 		<td>Location</td>
@@ -68,12 +75,24 @@
 	
 
 		<tr id="tr1"></tr>
+		<tr id="tr2"></tr>
+		<tr id="tr3"></tr>
+		<tr id="tr4"></tr>
+		<tr id="tr5"></tr>
+		<tr id="trnew"></tr>
 
-	</table>
+	</table></center>
 
 <h2>Holiness is in the Hole</h2>
+	
 	<p>
-	Locations for Holy Moly Donut Shop: <b>Holy Home-Slice</b> on 131st and Halsey || <b>Holy High-Mass</b> on 140th and San Rafael || <b>Holy High-Life</b> on 12th and Burnside || <b>Holy Half-Moon</b> on 3rd and Taylor || <b>Holy Hide-Away</b> on Rocky Butte.
+
+	<b>Locations for Holy Moly Donut Shop:</b> <br /> 
+	Holy Home-Slice on 131st and <b>Halsey</b> || <br /> 
+	Holy High-Mass on 140th and <b>San Rafael</b> || <br />
+	Holy High-Life on 12th and <b>Burnside</b> || <br />
+	Holy Half-Moon on 3rd and <b>Taylor</b> || <br />
+	Holy Hide-Away on <b>Rocky Butte</b> || <br />
 
 	</p>
 
@@ -91,14 +110,9 @@
 
 	</ul>
 
-<img src="/home/aminamaye/Desktop/codefellows_directory/donut.jpg"> 
+<center><img src="/home/aminamaye/Desktop/codefellows_directory/donut.jpg"></center> 
 
 
-				<button onclick="answers"()
-
-				To see statistics..Click here!
-
-			</button>
 
 
 <script src="shop.js"></script>
