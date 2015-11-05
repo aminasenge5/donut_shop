@@ -2,6 +2,7 @@
 
 // Logging utility functions
 
+
 var PL  = document.getElementById("pLog");
 
 var tr1 = document.getElementById("tr1");
