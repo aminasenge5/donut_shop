@@ -1,4 +1,4 @@
-//Holy Moly Donut Shop (shop.js)
+//BRUTE FORCE
 
 // Logging utility functions
 
