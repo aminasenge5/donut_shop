@@ -1,5 +1,15 @@
 
+*{
 
+	padding: 0px;
+	margin: 0px
+;
+}
+
+.img-circle {
+
+	border-radius: 50%;
+}
 
 body{
 		text-align: center;
@@ -36,4 +46,10 @@ body{
 			text-align: center;
 			color: #FC4040;
 
+		}
+
+		#donut-header{
+
+			width: 75%;
+			max-height: 300px;
 		}
