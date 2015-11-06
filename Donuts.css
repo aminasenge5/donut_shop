@@ -6,6 +6,15 @@
 ;
 }
 
+nav{
+
+			width: 200px;
+			padding: 10px;
+			border-style: solid;
+			position: fixed
+
+}
+
 .img-circle {
 
 	border-radius: 50%;
@@ -14,21 +23,31 @@
 body{
 		text-align: center;
 		color: #08C8C8;
-		background-color: #5D3A17;}
+		background-color: #5D3A17;
+	
+	}
+
 
 		
 
 		h1{
 
 			color:#FC4040;
+
 		}
+
+
+
 
 		div{
 
 			width: 400px;
 			padding: 25px;
 			border-radius: 50% 10px solid #667F99;
+			position: : relative;
+
 		}
+
 
 		p{
 			background-color: rgb(0,0,0);
@@ -38,6 +57,7 @@ body{
 
 			border-style: solid;
 
+
 		}
 
 
@@ -45,11 +65,18 @@ body{
 		h3{
 			text-align: center;
 			color: #FC4040;
+			position: relative;
 
+		}
+
+		h4{
+			position: absolute;
+			color: #65EF75
 		}
 
 		#donut-header{
 
-			width: 75%;
+			width: 50%;
 			max-height: 300px;
+
 		}
