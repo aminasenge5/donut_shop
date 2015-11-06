@@ -25,9 +25,9 @@ body{
 
 		div{
 
-			width: 200px;
+			width: 400px;
 			padding: 25px;
-			border: 10px solid #667F99;
+			border-radius: 50% 10px solid #667F99;
 		}
 
 		p{
