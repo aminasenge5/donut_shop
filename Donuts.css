@@ -13,6 +13,13 @@ body{
 			color:#FC4040;
 		}
 
+		div{
+
+			width: 200px;
+			padding: 25px;
+			border: 10px solid #667F99;
+		}
+
 		p{
 			background-color: rgb(0,0,0);
 			opacity: 0.5;
