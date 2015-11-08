@@ -49,6 +49,14 @@ nav{
 
 }
 
+.fade {
+			opacity: 0.5;
+		}
+
+		.fade:hover {
+			opacity: 1;
+		}
+
 .img-circle {
 
 	border-radius: 50%;
